@@ -65,8 +65,6 @@ class mynew_widget extends WP_Widget {
             }</style>';
         }
 
-//var_dump($args);
-
         echo $args['before_widget'];
         echo $args['before_title'] .  __( 'Top Commentators', 'mynew_widget' ) . $args['after_title'];
 
@@ -195,12 +193,6 @@ class mynew_widget extends WP_Widget {
      </p>
      <!-- user_roles field END -->
 
-
-
-
         <?php
     }
-
-
-
 }
